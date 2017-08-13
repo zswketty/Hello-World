@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>案例</title>
+    <link rel="stylesheet" type="text/css" href="../mypro/main.css" />
+    <script type="text/javascript" src="../mypro/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../mypro/view.js"></script>
+</head>
+
+<body>
+    <form>
+        <button type="button">延迟显示结果</button>
+        <button type="button">取消结果显示</button>
+    </form>
+    <p id="resShow"></p>
+
+
+
+
+    <script>
+        function Person(name, age, address) {
+            // 属性
+            this.name = name,
+                this.age = age,
+                this.address = address,
+
+                // 方法
+                this.sayHi = function() {
+                    console.log("Hi!");
+                }
+        }
+
+        // 创建Person对象实例
+        let person1 = new Person("张三", 20, "四川省成都市");
+        let person2 = new Person("李四", 24, "四川省乐山市");
+        let person3 = new Person("王五", 26, "四川省自贡市");
+        console.log(person1);
+        console.log(person2);
+    </script>
+</body>
+
+</html>

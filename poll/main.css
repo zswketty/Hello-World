@@ -1,0 +1,40 @@
+#box {
+    width: 295px;
+    margin: 0 auto;
+    text-align: justify;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.d_num {
+    display: inline-block;
+    margin: 10px;
+    width: 33px;
+    height: 30px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.sum {
+    margin: 0 10px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#sum {
+    width: 205px;
+    height: 30px;
+    padding: 0 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+#process {
+    width: 255px;
+    height: 30px;
+    padding: 0 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}

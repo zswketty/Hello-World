@@ -1,0 +1,17 @@
+#box {
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    position: relative;
+}
+
+#button {
+    margin-top: 10px;
+}
+
+#test {
+    margin: 43px auto;
+    width: 200px;
+    height: 20px;
+}
